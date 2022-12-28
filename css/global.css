@@ -33,3 +33,15 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+button.btn {
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  background-color: var(--dark-color);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  width: 19rem;
+  height: 6rem;
+}
