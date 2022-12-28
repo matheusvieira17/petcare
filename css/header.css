@@ -12,7 +12,7 @@ header {
 #menu {
   cursor: pointer;
   display: flex;
-  gap: 3.2rem;
+  gap: 6.3rem;
 }
 
 #menu a {
