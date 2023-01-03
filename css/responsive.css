@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+@media (max-width: 1024px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .banner-content {
+    padding-bottom: 1.6rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-content img,
+  .each-product img {
+    width: 80%;
+  }
+
+  .banner-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .banner-text h1 {
+    text-align: center;
+    font-size: 3.8rem;
+  }
+
+  .banner-text p {
+    font-size: 1.9rem;
+    width: 80%;
+  }
+
+  .title-container {
+    text-align: center;
+    margin-top: 10rem;
+  }
+
+  .title-container:after {
+    width: 100%;
+  }
+
+  .all-services,
+  .all-products,
+  .each-product,
+  .product-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .input-group input {
+    min-width: 20rem;
+    max-width: 80rem;
+    width: 100%;
+  }
+
+  .input-group textarea {
+    min-width: 5rem;
+    max-width: 56rem;
+    width: 100%;
+  }
+}
