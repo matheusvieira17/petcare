@@ -5,6 +5,7 @@
 
 :root {
   font-size: 10px;
+  --default-color: #fff;
   --primary-color: #fff2b3;
   --secondary-color: #98f2e1;
   --dark-color: #124c5f;
@@ -39,11 +40,12 @@ button.btn {
   outline: none;
   border-radius: 0.5rem;
   background-color: var(--dark-color);
-  color: #fff;
+  color: var(--default-color);
   text-transform: uppercase;
   font-size: 1.6rem;
   width: 19rem;
   height: 6rem;
+  margin-top: 5rem;
 }
 
 .container {
@@ -58,7 +60,7 @@ button.btn {
 
 .title-container::after {
   content: "";
-  width: 12rem;
+  width: 12.5rem;
   display: block;
   border: 2px solid var(--dark-color);
   background-color: var(--dark-color);
