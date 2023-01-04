@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+#btn-mobile {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  #btn-mobile {
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 3.2rem;
+    color: var(--dark-color);
+  }
+
+  #btn-mobile:active {
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+
+  #menu {
+    font-size: 2.4rem;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 7rem;
+    right: 0;
+    background-color: var(--primary-color);
+    z-index: 1000;
+    height: 0;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  #navbar.active #menu {
+    height: calc(802vh - 7rem);
+    transition: ease-in-out 1s;
+    visibility: visible;
+    overflow-y: auto;
+  }
+
+  #navbar.active #menu a {
+    padding: 2.4rem 0;
+    margin: 0 2.4rem;
+    border-bottom: 2px solid var(--dark-color);
+  }
+}
